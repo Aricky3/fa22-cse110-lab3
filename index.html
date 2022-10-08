@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<main>
-    <p>Company Name:</p>
-</main>
 
 <head>
     <title>Meeting Minutes</title>
@@ -11,106 +8,108 @@
     <!--<meta name="author" content="Ricardo Aguilar">-->
 </head>
 
+<main>
+    <p>Company Name:</p>
+</main>
 
+    <body>
+        <header>
+            <h1>Meeting Minutes</h1>
+        </header>
+        <footer>
+            <p>10.03.22</p>
+        </footer>
+        <h2>App development</h2>
+        <br>
+        <hr>
+        <p>
+            Resources:
+        <nav>
+            <a href="https://en.wikipedia.org/wiki/Agile_software_developmen">Agile</a>
+            <a href="https://www.yeezysupply.com/">Project Website</a>
+        </nav>
 
-<body>
-    <header>
-        <h1>Meeting Minutes</h1>
-    </header>
-    <footer>
-        <p>10.03.22</p>
-    </footer>
-    <h2>App development</h2>
-    <br>
-    <hr>
-    <p>
-        Resources:
-    <nav>
-        <a href="https://en.wikipedia.org/wiki/Agile_software_developmen">Agile</a>
-        <a href="https://www.yeezysupply.com/">Project Website</a>
-    </nav>
+        </p>
+        <div>
+            <p>Please make sure to ask <strong> questions via email to clarify</strong> any ambiguities <span
+                    style="color:blue">r3aguila@ucsd.edu</span></p>
+        </div>
+        <br>
+        <br>
+        <section>
+            <h3>Attendance</h3>
+            <ul>
+                <li><b>Ricky</b></li>
+                <li><b>Jeremy</b></li>
+                <li><b>Isabella</b></li>
+                <li>Cassandra</li>
+                <li>Kyle</li>
+                <li><b>David</b></li>
+            </ul>
+        </section>
+        <br>
+        <br>
+        <h3>Agenda</h3>
+        <ol>
+            <li><i>Introductions/Ice Breakers</i></li>
+            <li>Go over User stories</li>
+            <li>Planning Poker</li>
+            <li>delegate tasks</li>
+            <li>Lunch</li>
+        </ol>
+        <details>
+            <summary>Meeting Room</summary>
+            <p>WLH 2005, start time: 5:00pm PST - 6:00 PST</p>
+        </details>
+        <p><em>The following below are pictures from meeting:</em></p>
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220311103841/Slide7.jpg" alt="pic1"
+            style="width:200px;height:200px;">
+        <img src="        https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/ABasicComputer.gif/481px-ABasicComputer.gif"
+            alt="pic1" style="width:200px;height:200px;">
+        <br>
+        <video width="320" height="240" controls>
+            <source src="IMG_0061.mp4" type="video/mp4">
+        </video>
 
-    </p>
-    <div>
-        <p>Please make sure to ask <strong> questions via email to clarify</strong> any ambiguities <span
-                style="color:blue">r3aguila@ucsd.edu</span></p>
-    </div>
-    <br>
-    <br>
-    <section>
-        <h3>Attendance</h3>
-        <ul>
-            <li><b>Ricky</b></li>
-            <li><b>Jeremy</b></li>
-            <li><b>Isabella</b></li>
-            <li>Cassandra</li>
-            <li>Kyle</li>
-            <li><b>David</b></li>
-        </ul>
-    </section>
-    <br>
-    <br>
-    <h3>Agenda</h3>
-    <ol>
-        <li><i>Introductions/Ice Breakers</i></li>
-        <li>Go over User stories</li>
-        <li>Planning Poker</li>
-        <li>delegate tasks</li>
-        <li>Lunch</li>
-    </ol>
-    <details>
-        <summary>Meeting Room</summary>
-        <p>WLH 2005, start time: 5:00pm PST - 6:00 PST</p>
-    </details>
-    <p><em>The following below are pictures from meeting:</em></p>
-    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220311103841/Slide7.jpg" alt="pic1"
-        style="width:200px;height:200px;">
-    <img src="        https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/ABasicComputer.gif/481px-ABasicComputer.gif"
-        alt="pic1" style="width:200px;height:200px;">
-    <br>
-    <video width="320" height="240" controls>
-        <source src="IMG_0061.mp4" type="video/mp4">
-    </video>
+        <audio controls>
+            <source src="Record (online-voice-recorder.com).mp3" type="audio/ogg">
 
-    <audio controls>
-        <source src="Record (online-voice-recorder.com).mp3" type="audio/ogg">
+        </audio>
 
-    </audio>
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>Contact Info:</legend>
+                <label for="Oncall">Oncall Month:</label>
+                <input type="date" id="Oncall_month" name="Oncall_month"><br><br>
+                <datalist id="Oncall_month">
+                    <option value="01">
+                    <option value="02">
+                    <option value="03">
+                    <option value="04">
+                    <option value="05">
+                    <option value="06">
+                    <option value="07">
+                    <option value="09">
+                    <option value="10">
+                    <option value="11">
+                    <option value="12">
+                </datalist>
+                <label for="email">Employee Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <textarea id="hello_world" name="hello" rows="3"
+                    cols="40">Please type any questions you may have here</textarea>
+                <br>
+                <select name="note_rating" id="rating">
+                    <option value="terrible">terrible</option>
+                    <option value="bad">bad</option>
+                    <option value="good">good</option>
+                    <option value="fantastic">fantastic</option>
+                </select>
+                <button type="button">Done</button>
+            </fieldset>
+        </form>
 
-    <form action="/action_page.php">
-        <fieldset>
-            <legend>Contact Info:</legend>
-            <label for="Oncall">Oncall Month:</label>
-            <input type="date" id="Oncall_month" name="Oncall_month"><br><br>
-            <datalist id="Oncall_month">
-                <option value="01">
-                <option value="02">
-                <option value="03">
-                <option value="04">
-                <option value="05">
-                <option value="06">
-                <option value="07">
-                <option value="09">
-                <option value="10">
-                <option value="11">
-                <option value="12">
-            </datalist>
-            <label for="email">Employee Email:</label>
-            <input type="email" id="email" name="email"><br><br>
-            <textarea id="hello_world" name="hello" rows="3"
-                cols="40">Please type any questions you may have here</textarea>
-            <br>
-            <select name="note_rating" id="rating">
-                <option value="terrible">terrible</option>
-                <option value="bad">bad</option>
-                <option value="good">good</option>
-                <option value="fantastic">fantastic</option>
-            </select>
-            <button type="button">Done</button>
-        </fieldset>
-    </form>
-
-</body>
+    </body>
 
 
 </html>
