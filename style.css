@@ -1,11 +1,45 @@
 /*comments are so easy to do in CSS*/
-
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;  
+}
+*{
+    align-items: auto;
+}
+::marker { 
+    color: rgb(99, 91, 220);
+  }
+[class|=date]{
+    background-color: dodgerblue;
+}
+p,h1{
+    font-size: 20px;
+}
 #title{
     color: hsl(272, 66%, 71%);
     font-size: 5mm;
     background-color: gray;
     position: static;
 }
+div > p{
+    font-size: 25px;
+
+}
+div ol {
+    font-size: 20px;
+  }
+  div ~ ul {
+   font-size: 20px;
+  }
+  div + li {
+    background-color: rgb(88, 125, 213);
+    font-size: 15px;
+  }
+  div.agenda{
+    background-color: #2a78a5;
+  }
 
 #role-call {
     /*elements in the role call class will be colored black*/
@@ -50,6 +84,7 @@
 }
 #notes{
     font-size: 1.5rem;
+    font-family: 'Ubuntu';
 }
 #info{
     /*changes the size of info on hiring freeze*/
@@ -61,6 +96,7 @@
     max-height: 10px;
     max-width: auto;
     position: relative;
+    font-family: '';
 }
 p.hiring{
     display: inline;
@@ -81,4 +117,24 @@ p.steps{
 }
 .gridex1{
     background-color: antiquewhite;
+}
+.flex_box{
+    display: flex;
+    text-align: auto;
+    flex-wrap: auto;
+    font-size: 25px;
+    
+    background-color: rgb(255, 255, 255);
+}
+.f1{
+    background-color: rgb(174, 208, 81);
+
+}
+.f2{
+    background-color: #2a78a5;
+}
+@media only screen and (max-width:900px){
+    body{
+        background-color: burlywood;
+    }
 }
